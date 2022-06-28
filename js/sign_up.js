@@ -6,7 +6,7 @@ var con_password_error=document.getElementById("con_password_error");
 var password_strength=document.getElementById("password-text");
 function validate_name()
 {
-    var name=document.getElementById("name").value;
+    var name=document.getElementById("name").value.trim();
     if(name.length==0)
     {
         name_error.innerText="Name is required";
@@ -24,7 +24,7 @@ function validate_name()
 }
 function validate_email()
 {
-    var email=document.getElementById("email").value;
+    var email=document.getElementById("email").value.trim();
     if(email.length==0)
     {
         email_error.innerText="Email is required";
@@ -63,7 +63,7 @@ function validate_phone_no()
 
 function validate_signup_pwd()
 {
-var password=document.getElementById("pwd_signup").value;
+var password=document.getElementById("pwd_signup").value.trim();
 
 if(password.length==0)
 {
@@ -121,8 +121,8 @@ var regexp_password =  /^(?=.*[A-Z])(?=.*[0-9])(?=.*[a-z]).{8}$/;
 
 function validate_conpassword()
 {
-    var old_password=document.getElementById("pwd_signup").value;
-    var con_password=document.getElementById("con_password").value;
+    var old_password=document.getElementById("pwd_signup").value.trim();
+    var con_password=document.getElementById("con_password").value.trim();
     if(con_password==0)
     {
         con_password_error.innerText="Enter Password again";
