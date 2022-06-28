@@ -1,0 +1,50 @@
+.nav_color
+{
+    background-color: rgba(33, 212, 78, 0.89) !important;
+}
+
+.menu{
+    float:right !important;
+}
+
+.carousel-inner img {
+    width: 100%;
+   
+  }
+
+  h4{
+    font-size:large;
+  }
+   #email_error
+  {
+    color:red;
+  }
+  #password_error
+  {
+    color:red;
+  }
+  #submit_error
+  {
+    color:red;
+  }
+#name_error
+{
+  color:red;
+}
+ #phone_no_error
+  {
+color:red;
+  }
+
+  #con_password_error
+  {
+    color:red;
+  }
+
+  .progress-bar {
+    border-radius: 5px;
+  }
+
+  i{
+    color:seagreen;
+  }
